@@ -1,6 +1,8 @@
 package com.example.demo.rest;
 
 public class Student {
+    
+    private int Id;
     private String firstName;
     private String lastName;
 
@@ -10,6 +12,14 @@ public class Student {
     public Student(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
+    }
+
+    public int getId() {
+        return Id;
+    }
+
+    public void setId(int id) {
+        Id = id;
     }
 
     public String getFirstName() {
