@@ -1,10 +1,11 @@
-package com.example.demo.dao;
+package com.example.demo.service;
 
 import com.example.demo.entity.Employee;
 
 import java.util.List;
 
-public interface EmployeeDAO {
+public interface EmployeeService {
+
     List<Employee> findAll();
 
     Employee findById(int theId);
